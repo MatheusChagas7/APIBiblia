@@ -88,7 +88,6 @@ use Illuminate\Support\Facades\Route;
 
 
 // Facilitando mais ainda com apiResources
-
 Route::group(['middleware' => ['auth:sanctum']], function(){
 
     Route::apiResources([
